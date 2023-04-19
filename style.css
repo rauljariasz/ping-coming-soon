@@ -127,3 +127,42 @@ form div p {
   color: var(--gray);
   font-size: 1.2rem;
 }
+
+@media (min-width: 931px) {
+  main {
+    height: auto;
+    padding: 8rem 0 5rem;
+  }
+  .logo {
+    width: 9rem;
+    margin-bottom: 3.5rem;
+  }
+  .htext {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .subscribe {
+    font-size: 1.6rem;
+  }
+  form {
+    flex-direction: row;
+    height: 14rem;
+    width: auto;
+    gap: 1.5rem;
+  }
+  form > div {
+    width: 39rem;
+  }
+  form div input {
+    width: 100%;
+    height: 5rem;
+  }
+  form div p {
+    padding-left: 3rem;
+    text-align: start;
+  }
+  .submit {
+    width: 20rem;
+    height: 5rem;
+  }
+}
