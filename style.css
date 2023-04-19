@@ -1,0 +1,75 @@
+:root {
+  --primary: #4f7df3;
+  --secundary: #c2d3ff;
+  --error: #ff5263;
+  --gray: #969696;
+  --white: #fff;
+  --black: #000
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.error {
+  border: 1px solid var(--error);
+}
+.show {
+  display: block;
+}
+main {
+  height: auto;
+  padding: 8.5rem 2.7rem 3.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 5.5rem;
+  margin-bottom: 4rem;
+}
+.htext {
+  font-size: 2.3rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+.htext span {
+  color: var(--black);
+  font-weight: 700;
+}
+.subscribe {
+  font-size: 1.3rem;
+  margin-bottom: 3.5rem;
+  font-weight: 400;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div input {
+  margin-bottom: 1rem;
+  width: 28rem;
+  height: 4rem;
+  padding-left: 3rem;
+  outline: none;
+  border-radius: 5rem;
+  border: 1px solid var(--secundary);
+}
+form div input::placeholder {
+  color: var(--secundary);
+}
+form div p {
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  color: var(--error);
+  display: none;
+}
