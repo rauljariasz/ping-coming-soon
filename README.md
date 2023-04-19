@@ -13,7 +13,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Designs
 
-
+![desktop-design](https://user-images.githubusercontent.com/113625378/233167926-be9ea3ed-c0bf-4ea6-958c-dc9afcb5ec6d.jpg)
+![mobile-design](https://user-images.githubusercontent.com/113625378/233167939-187ada79-784b-4b64-99ad-0e5242032fb8.jpg)
 
 ### Links
 
